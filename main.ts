@@ -42,6 +42,9 @@ input.onGesture(Gesture.Shake, function () {
         # # # # #
     `)
   }
+
+  basic.pause(5000)
+  basic.showIcon(IconNames.QuarterNote)
 })
 
 input.onButtonPressed(Button.A, function () {
