@@ -10,8 +10,9 @@ basic.showIcon(IconNames.Heart)
 
 // variable
 let rockPaperScissor: number = -1
+let score: number = 0
 
-input.onGesture(Gesture.Shake, function() {
+input.onGesture(Gesture.Shake, function () {
   rockPaperScissor = randint(0, 2)
   basic.clearScreen()
 
@@ -32,7 +33,7 @@ input.onGesture(Gesture.Shake, function() {
   }
 
   // if rockPaperScissor is 2
-  if (rockPaperScissor == 2) { 
+  if (rockPaperScissor == 2) {
     basic.showLeds(`
         # # # # #
         # . . . #
@@ -41,4 +42,13 @@ input.onGesture(Gesture.Shake, function() {
         # # # # #
     `)
   }
+})
+
+input.onButtonPressed(Button.A, function () {
+  score = score + 1
+})
+
+input.onButtonPressed(Button.B, function () {
+  basic.clearScreen()
+  basic.showString("Score : " + score)
 })
