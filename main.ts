@@ -17,12 +17,12 @@ input.onGesture(Gesture.Shake, function () {
   basic.clearScreen()
 
   // if rockPaperScissor is 0
-  if (rockPaperScissor == 0) {
+  if (rockPaperScissor === 0) {
     basic.showIcon(IconNames.Scissors)
   }
 
   // if rockPaperScissor is 1
-  if (rockPaperScissor == 1) {
+  if (rockPaperScissor === 1) {
     basic.showLeds(`
         . . . . .
         . # # # .
@@ -33,7 +33,7 @@ input.onGesture(Gesture.Shake, function () {
   }
 
   // if rockPaperScissor is 2
-  if (rockPaperScissor == 2) {
+  if (rockPaperScissor === 2) {
     basic.showLeds(`
         # # # # #
         # . . . #
@@ -50,5 +50,5 @@ input.onButtonPressed(Button.A, function () {
 
 input.onButtonPressed(Button.B, function () {
   basic.clearScreen()
-  basic.showString("Score : " + score)
+  basic.showString('Score : ' + score.toString())
 })
