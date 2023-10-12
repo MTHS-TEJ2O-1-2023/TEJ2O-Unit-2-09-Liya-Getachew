@@ -43,12 +43,13 @@ input.onGesture(Gesture.Shake, function () {
     `)
   }
 
-  basic.pause(5000)
+  basic.pause(3000)
   basic.showIcon(IconNames.QuarterNote)
 })
 
 input.onButtonPressed(Button.A, function () {
   score = score + 1
+  basic.showIcon(IconNames.Yes)
 })
 
 input.onButtonPressed(Button.B, function () {
