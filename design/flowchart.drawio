@@ -11,7 +11,7 @@
                     <mxGeometry x="90" y="40" width="100" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="3" value="Stop" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
-                    <mxGeometry x="425" y="241" width="100" height="60" as="geometry"/>
+                    <mxGeometry x="425" y="330" width="100" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="5" value="Shake Function" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="82" y="15" width="110" height="30" as="geometry"/>
@@ -34,7 +34,7 @@
                 <mxCell id="9" value="Button B function" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="653" y="15" width="110" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" parent="1" source="12" target="3" edge="1">
+                <mxCell id="14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" parent="1" source="12" target="58" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="12" value="score = score + 1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
@@ -145,6 +145,12 @@
                 </mxCell>
                 <mxCell id="51" value="Stop" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="90" y="890" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="58" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="show Yes Icon" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                    <mxGeometry x="412.5" y="239" width="125" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
