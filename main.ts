@@ -35,11 +35,11 @@ input.onGesture(Gesture.Shake, function () {
   // if rockPaperScissor is 2
   if (rockPaperScissor === 2) {
     basic.showLeds(`
-        # # # # #
-        # . . . #
-        # . . . #
-        # . . . #
-        # # # # #
+      # # # # #
+      # . . . #
+      # . . . #
+      # . . . #
+      # # # # #
     `)
   }
 
