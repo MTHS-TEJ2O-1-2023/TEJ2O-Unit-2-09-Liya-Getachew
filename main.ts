@@ -24,11 +24,11 @@ input.onGesture(Gesture.Shake, function () {
   // if rockPaperScissor is 1
   if (rockPaperScissor === 1) {
     basic.showLeds(`
-        . . . . .
-        . # # # .
-        . # # # .
-        . # # # .
-        . . . . .
+      . . . . .
+      . # # # .
+      . # # # .
+      . # # # .
+      . . . . .
     `)
   }
 
